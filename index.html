@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                    <button onclick="addCard()" type="button" class="btn btn-primary" data-bs-dismiss="modal">
                         SAVE
                     </button>
                 </div>
@@ -68,31 +68,8 @@
 
     <main class="container">
         <section>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mt-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn btn-outline-info">
-                                    <i class="fas fa-pencil-alt"></i>
-                                </button>
-                                <button type="button" class="btn btn-outline-danger">
-                                    <i class="fas fa-trash-alt"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <img src="./assets/sky-828648_1920.jpg" class="card-imh-top" alt="image">
-                        <div class="card-body">
-                            <h5 class="card-title">Task Title</h5>
-                            <p class="card-text">Task Descritpton</p>
-                            <span class="badge bg-primary">task-type</span>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-outline-primary">OPEN TASK</button>
-                        </div>
-                    </div>
-                </div>
-                
+            <div id="taskContents" class="row">
+                <!-- card  -->
             </div>
         </section>
     </main>
